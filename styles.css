@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(#0078D7, #00B294);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    height: 20vh;
+    width: 20vw;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+p {
+    margin-top: auto;
+    height: 20vh;
+    background-color: aliceblue;
+    a {
+        opacity: 0;
+    }
+
+    a:hover {
+        opacity: 1;
+    }
+}
