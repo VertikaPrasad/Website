@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto";
+}
+
 body {
     background: linear-gradient(#0078D7, #00B294);
     background-repeat: no-repeat;
@@ -27,4 +31,5 @@ p {
     a:hover {
         opacity: 1;
     }
+
 }
